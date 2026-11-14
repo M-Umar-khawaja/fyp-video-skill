@@ -1,0 +1,35 @@
+{
+  "fps": 30,
+  "videos": {
+    "pitch": {
+      "takes": ["Pitch_P1", "Pitch_P2"],
+      "lead": 0.3,
+      "gap": 0.9,
+      "tail": 4.5,
+      "maxDuration": 175,
+      "music": true,
+      "scenes": {
+        "S01": null,
+        "S02": "Pitch_P1: that's why",
+        "S03": "Pitch_P2: follow a",
+        "S04": "Pitch_P2: built at"
+      },
+      "captions": {
+        "Pitch_P1": [
+          "Encrypted traffic recorded today can be stored for years, even if nobody can read it.",
+          "That's why NIST has standardized two replacements."
+        ],
+        "Pitch_P2": [
+          "Follow a signature check.",
+          "Built at NUST with ChipXPRT."
+        ]
+      },
+      "cues": {
+        "recorded": "Pitch_P1: recorded",
+        "nist": "Pitch_P1: NIST",
+        "follow": "Pitch_P2: follow",
+        "name": "Pitch_P2: built at"
+      }
+    }
+  }
+}

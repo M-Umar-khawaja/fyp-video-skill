@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: ml-plan-claims-and-script
+expected_outcome: |
+  Claude produces a fact sheet, a claims ledger that tags 81.4 %, 88.2 % and 38 ms as measured, the 150 ms
+  low-end-phone figure as a target, and the clinical pilot as planned; then a storyboard with scenes, applause
+  moments and a narration script of roughly 260-300 words (under 2:00 at 140-150 wpm), wording each number
+  according to its status, ending with team, supervisor and institution. It does not render anything.
+context:
+  scaffold_script: place-files.sh

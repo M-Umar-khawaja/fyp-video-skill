@@ -1,0 +1,28 @@
+{
+ "demo": {
+  "fps": 30,
+  "duration": 20,
+  "clips": [],
+  "music": null,
+  "scenes": [
+   {"id": "S01", "start": 0, "end": 5},
+   {"id": "S02", "start": 5, "end": 12},
+   {"id": "S03", "start": 12, "end": 16.5},
+   {"id": "S04", "start": 16.5, "end": 20}
+  ],
+  "captions": [
+   {"s": 0.5, "e": 2.0, "text": "This is a placeholder timeline with no voice yet."},
+   {"s": 2.1, "e": 4.8, "text": "Run build_timeline.mjs after transcribing your takes to replace it."},
+   {"s": 5.4, "e": 8.4, "text": "Every cue is anchored to a spoken phrase."},
+   {"s": 8.5, "e": 11.8, "text": "So the picture lands on the word, even when takes change."},
+   {"s": 12.4, "e": 16.2, "text": "Numbers always carry their status: measured, simulated or target."},
+   {"s": 16.8, "e": 19.4, "text": "End on the name, the team and the institution."}
+  ],
+  "cues": {
+   "title": 0.6, "tagline": 2.0, "stats": 3.0,
+   "input": 5.6, "process": 6.8, "output": 8.0, "token": 8.6, "result": 10.4,
+   "baseline": 12.8, "ours": 13.8, "counter": 14.4,
+   "team": 17.2
+  }
+ }
+}

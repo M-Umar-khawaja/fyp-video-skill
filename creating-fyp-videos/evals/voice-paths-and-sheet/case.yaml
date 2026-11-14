@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: voice-paths-and-sheet
+expected_outcome: |
+  Claude offers the voice options (Google AI Studio Gemini TTS recommended as natural and free, own voice,
+  local TTS as more robotic) and gives step-by-step AI Studio instructions: style line kept separate from the
+  script box, a voice shortlist, the script block re-spelled for pronunciation (e.g. "lo-ra", "E-S-P thirty-two
+  C3"), angle-bracket pause tags, 2-3 takes, WAV download and file naming, and a listening checklist.

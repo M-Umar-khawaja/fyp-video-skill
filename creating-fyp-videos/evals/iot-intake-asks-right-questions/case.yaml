@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: iot-intake-asks-right-questions
+expected_outcome: |
+  Claude skims the report first, recognises an embedded/IoT project at prototype stage, and asks one
+  batched set of questions: video type and length limit, rules/rubric, deadline, and the IoT-specific
+  materials that are missing (prototype photos, schematic/PCB, dashboard screenshots, logos), marked essential
+  or nice to have. It does not ask for things already in the report (team, supervisor, sensors). It notes that
+  battery life, range and cost are targets/estimates and that there is no field data, and writes a brief.md.
+  It does not start rendering a video before the design is approved.
+context:
+  scaffold_script: place-files.sh
