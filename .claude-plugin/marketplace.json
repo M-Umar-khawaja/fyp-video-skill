@@ -1,0 +1,14 @@
+{
+  "name": "fyp-video-skill",
+  "description": "Agent Skill for making Final Year Project, capstone and senior-design videos with Claude.",
+  "owner": {"name": "Muhammad Umar Khawaja", "url": "https://github.com/M-Umar-khawaja"},
+  "plugins": [
+    {
+      "name": "fyp-video-studio",
+      "source": "./",
+      "description": "Expo pitch, booth loop, demo and presentation videos for final year / capstone projects: intake, research, storyboard, AI voice, Remotion build, render and QA.",
+      "category": "productivity",
+      "tags": ["video", "education", "students", "remotion", "presentation"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# FYP Video Studio (creating-fyp-videos)
+
+> An open-source Agent Skill (SKILL.md standard) that guides an AI coding agent to produce Final Year Project, capstone, senior-design, thesis and design-expo videos end to end: intake questions, project and domain research, a claims ledger, storyboard and script, natural narration (Google AI Studio Gemini TTS, own voice or local TTS), a Remotion motion-graphics build with word-synced cues, chunked rendering, loudness mastering and automated QA. MIT licensed.
+
+Video types: expo pitch (2-3 min), muted booth loop (60-90 s), demo video (3-6 min), presentation/defense video (6-15 min), teaser (30-60 s).
+Domains with dedicated guidance: VLSI/FPGA, embedded/IoT, software/web/mobile, AI/ML, networking/security/cryptography, robotics, power/electrical, communications/DSP, mechanical/civil, biomedical, business-tech.
+Requirements: Node.js 18+, Python 3 + numpy, ~1.5 GB free disk.
+
+## Install
+- Claude Code plugin: `/plugin marketplace add M-Umar-khawaja/fyp-video-skill` then `/plugin install fyp-video-studio@fyp-video-skill`
+- Skills CLI (Claude Code, Codex, Gemini CLI, Cursor, Copilot): `npx skills add M-Umar-khawaja/fyp-video-skill`
+- Manual: copy `skills/creating-fyp-videos` into `~/.claude/skills/` or `~/.agents/skills/`
+
+## Docs
+- [SKILL.md](skills/creating-fyp-videos/SKILL.md): the 8-phase workflow
+- [Intake](skills/creating-fyp-videos/references/intake.md): questions and materials checklist
+- [Domains](skills/creating-fyp-videos/references/domains.md): per-field inputs, visuals and pitfalls
+- [Storytelling](skills/creating-fyp-videos/references/storytelling.md): structures per video type, script rules, review rubric
+- [Visual design](skills/creating-fyp-videos/references/visual-design.md): motion grammar and scene archetypes
+- [Voice](skills/creating-fyp-videos/references/voice.md): Google AI Studio steps, own voice, local TTS
+- [Remotion build](skills/creating-fyp-videos/references/remotion-build.md): project layout, spec format, scene patterns
+- [Verification](skills/creating-fyp-videos/references/verification.md): QA checklist and delivery report
+
+## Evidence
+- End-to-end pipeline test: 600/600 frames, -16 LUFS, -1.5 dBTP, QA pass.
+- Evals vs no-skill baseline (same model, 3 cases): 18/18 checks with the skill, 14/18 without.

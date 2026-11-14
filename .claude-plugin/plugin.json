@@ -1,0 +1,11 @@
+{
+  "name": "fyp-video-studio",
+  "displayName": "FYP Video Studio",
+  "version": "1.1.0",
+  "description": "Award-quality Final Year Project / capstone / senior design videos: expo pitch, booth loop, demo and presentation videos with word-synced motion graphics (Remotion), natural AI narration and automatic QA.",
+  "author": {"name": "Muhammad Umar Khawaja", "url": "https://github.com/M-Umar-khawaja"},
+  "homepage": "https://github.com/M-Umar-khawaja/fyp-video-skill",
+  "repository": "https://github.com/M-Umar-khawaja/fyp-video-skill",
+  "license": "MIT",
+  "keywords": ["final-year-project", "fyp", "capstone", "senior-design", "design-expo", "project-video", "pitch-video", "demo-video", "explainer-video", "motion-graphics", "remotion", "video-generation", "agent-skills"]
+}
